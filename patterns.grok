@@ -1,0 +1,6 @@
+DATE_US2 %{YEAR}[/-]%{MONTHNUM}[/-]%{MONTHDAY}
+NOTCOMMA [^,]+
+PRID [0-9]+
+QUOTEDQUOTES (\"((?:[^\"]|\"\")*+)\")
+QSORNC %{QUOTEDQUOTES}|%{NOTCOMMA}
+asd
